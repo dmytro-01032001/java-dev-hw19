@@ -32,4 +32,5 @@ public class SumCalculatorTest {
     public void sum0Test(){
         assertThrows(IllegalArgumentException.class, () -> calculator.sum(0));
     }
+
 }
